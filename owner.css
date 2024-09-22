@@ -1,0 +1,78 @@
+body {
+  background-color: #f1ede4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #d0b8a2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  color: #4f3c2c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #4f3c2c;
+  margin-bottom: 8px;
+}
+
+
+input, textarea, number {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #4f3c2c;
+  border-radius: 4px;
+  background-color: #f9f5ee;
+}
+/* Styling for the label */
+label[for="category"] {
+  display: block;
+  font-size: 18px;
+  color: #4f3c2c;
+  margin-bottom: 8px;
+}
+
+/* Styling for the select element */
+#category {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #4f3c2c;
+  border-radius: 4px;
+  background-color: #f9f5ee;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #4f3c2c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #795a44;
+}
